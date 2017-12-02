@@ -1,0 +1,62 @@
+<div class="row">
+    <div class="col-sm-4">
+      <div class="jumbotron">
+          <div class="card text-white bg-dark">
+              <div class="card-body">
+                <blockquote class="card-blockquote">
+                  <p>You Can Call Me On:</p>
+                  <h2>+91-9631631849</h2>
+                  <p>Send me an Email on:</p>
+                  <h3>diwakarraj1122@gmail.com</h3>
+                  
+                </blockquote>
+              </div>
+            </div>
+            <div class="card text-white bg-dark">
+                <div class="card-body">
+                  <blockquote class="card-blockquote">
+                    <p>Address:</p>
+                    <footer>4Th main,Vinayaka layout,whitefield,Bangalore-560066</footer>
+                  <a href="https://www.linkedin.com/in/diwakar-raj-5321b2b8/"><i class="fa fa-linkedin" style="font-size:30px"></i><footer>(LinkedIN)</footer></a>
+                  <br>
+                  <a href="https://www.linkedin.com/in/diwakar-raj-5321b2b8/"><i class="fa fa-angellist" style="font-size:30px"></i><footer>(AngleList)</footer></a>
+                  <br>
+                  <a href=""><i class="fa fa-github-alt" style="font-size:30px"></i><footer>(GitHub) </footer></a>
+                  </blockquote>
+                </div>
+              </div>
+
+      </div>
+    </div>
+    <div class="col-sm-6">
+            <div  class="jumbotron">
+              <form #form="ngForm"(ngSubmit)='onSubmit(form.value)' class="well">
+                <fieldset>
+                  <legend>Let's build something together!</legend>
+                  <div class="form-group">
+                      <label>Name:</label>
+                      <input type="text" class="form-control" name="nameOfPerson" placeholder="Enter your name:" ngModel >
+                  <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  --></div>
+                  <div class="form-group">
+                      <label>Phone Number:</label>
+                      <input type="text" class="form-control" name="phone" placeholder="Enter your name:"
+                      ngModel>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"
+                    ngModel>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleTextarea">Messages</label>
+                    <textarea class="form-control"name="message" id="exampleTextarea" rows="5" ngModel></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-right"  >Submit</button>
+                </fieldset>
+              </form>
+            </div>
+      </div>
+    <div class="col-sm-2"></div>
+  </div>
